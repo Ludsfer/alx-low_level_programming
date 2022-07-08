@@ -13,12 +13,12 @@ int main(void)
 	
 	i = 0;
 	/*
-	while (i < 10)
-	{
-		putchar(i);
-	}
+	*while (i < 10)
+	*{
+	*	putchar(i);
+	*	Infinite loop - Shold update the value of i
+	*}
 	*/
 	printf("Infinite loop avoided! \\o/\n");
-	
 	return (0);
 }
